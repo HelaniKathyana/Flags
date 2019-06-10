@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Flags</string>
+    <string name="flag_text">Flags</string>
+    <string name="guessthecountry_button">Guess the Country</string>
+    <string name="guesshints_button">Guess-Hints</string>
+    <string name="guesstheflag_button">Guess the Flag</string>
+    <string name="advancedlevel_button">Advanced Level</string>
+    <string name="timer_switch">Timer Off</string>
+
+    <string name="guesscountry_textview">Guess Country :</string>
+    <string name="guesscountry_button">Submit</string>
+
+    <string name="guesshint_textview">Guess Country :</string>
+    <string name="guesshint_letter_textview">Guess Character :</string>
+    <string name="guesshint_button">Submit</string>
+
+    <string name="guessflag_textview">Pick Flag for Country :</string>
+    <string name="guessflag_button">Next</string>
+
+    <string name="advanced_score">Score:</string>
+    <string name="advanced_textview">Guess Countries for All Flags :</string>
+    <string name="advanced_flag1">Flag 1 :</string>
+    <string name="advanced_flag2">Flag 2 :</string>
+    <string name="advanced_flag3">Flag 3 :</string>
+    <string name="advanced_button">Submit</string>
+
+</resources>

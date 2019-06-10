@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdvancedLevel"
+    android:background="@drawable/otherbackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/flag1_textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="40dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="@string/advanced_score"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/tv_timer4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:gravity="right"
+                android:textColor="@color/colorAccent"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/flag1_imageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/flag2_imageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/flag3_imageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/guessthecountryforallflag_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="35dp"
+            android:text="@string/advanced_textview"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/flag1_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="15dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="left"
+                android:text="@string/advanced_flag1"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_flag1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Country for Flag 1"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_flag1Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#053D62" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/flag2_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="15dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="left"
+                android:text="@string/advanced_flag2"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_flag2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Country for Flag 2"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_flag2Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#053D62" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/flag3_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="15dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="left"
+                android:text="@string/advanced_flag3"
+                android:textStyle="bold"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/et_flag3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Country for Flag 3"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_flag3Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="#053D62" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/answerStatus_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="18sp" />
+
+
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="@string/advanced_button"
+            android:textSize="20sp"
+            android:background="@drawable/button"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/flag3_textView" />
+
+    </LinearLayout>
+
+</RelativeLayout>
